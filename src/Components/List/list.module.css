@@ -1,0 +1,13 @@
+.listContainer{
+    /* overflow-y:auto; */
+    height: 100%;
+}
+
+/* .listContainer::-webkit-scrollbar {
+    width: 8px;  
+}
+  
+.listContainer::-webkit-scrollbar-thumb {
+    background-color: #888;  
+    border-radius: 4px; 
+} */

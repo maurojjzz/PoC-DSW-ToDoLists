@@ -1,0 +1,12 @@
+.testing{
+    height: 100vh;
+    background-color: #2e3742de;
+}
+.switchContainer::-webkit-scrollbar {
+    width: 4px;  
+}
+  
+.switchContainer::-webkit-scrollbar-thumb {
+    background-color: #888;  
+    border-radius: 4px; 
+}

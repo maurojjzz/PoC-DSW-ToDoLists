@@ -1,0 +1,6 @@
+.cardContainer{
+    color: white;
+    max-width: 450px;
+    height: 150px;
+    cursor: pointer;
+}
