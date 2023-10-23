@@ -4,6 +4,7 @@ import styles from "./layout.module.css";
 import Header from "../Header";
 import List from "../List";
 import NewList from "../NewList";
+import ToDo from "../ToDo";
 
 function Layout() {
   return (
@@ -14,6 +15,7 @@ function Layout() {
           <Switch>
             <Route path="/list" exact component={List} />
             <Route path="/new-list" exact component={NewList} />
+            <Route path="/list/:id"  component={ToDo} />
             <Redirect from="/" to="/list" />
           </Switch>
         </div>
