@@ -30,7 +30,7 @@ const NewList = ({onAddList}) => {
       setnewListTitle('');
       addToArray(listName);
       setLoading(true);
-      setTimeout(()=>{history.push('/list')} , 2000)
+      setTimeout(()=>{history.push('/list')} , 1000)
     }
   }
 

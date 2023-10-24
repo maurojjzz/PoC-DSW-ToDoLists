@@ -19,8 +19,8 @@ const Header = () => {
         <div className={`${styles.cursor}`} onClick={mainPage}>
             <h1>LISTS</h1>
         </div>
-        <div className={`${styles.cursor}`} onClick={newList}>
-            <h2>New list</h2>
+        <div className={`${styles.btnList} px-4 rounded-3 `} onClick={newList}>
+           Nueva Tarea
         </div>
     </div>
   )

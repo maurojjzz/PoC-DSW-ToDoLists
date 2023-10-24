@@ -11,7 +11,7 @@ function Layout() {
     <div className={`container-fluid d-flex flex-column ${styles.testing}`}>
       <Router>
         <Header />
-        <div className={`flex-grow-1 overflow-y-auto  ${styles.switchContainer}`}>
+        <div className={`d-flex flex-column flex-grow-1 overflow-y-auto ${styles.switchContainer}`}>
           <Switch>
             <Route path="/list" exact component={List} />
             <Route path="/new-list" exact component={NewList} />
