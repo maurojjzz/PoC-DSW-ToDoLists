@@ -1,6 +1,30 @@
 .cardContainer{
-    color: white;
-    max-width: 450px;
-    height: 150px;
+    max-width: 400px;
+    min-width: 200px;
+    width: 43vw;
+    height: 155px;
     cursor: pointer;
+    background-color: #1e2936;
+    transition: all ease-in-out 0.4s;
+    box-shadow:   -6px -6px 12px #0d1521,
+    6px 6px 12px #131d2d
 }
+
+.cardContainer:hover{
+    transform: scale(1.05);
+    transition: all ease-in-out 0.4s;
+    box-shadow:  8px 8px 16px #0c131d,
+             -8px -8px 16px #141f31;
+}
+
+.barra{
+    height: 30px;
+    background-color: #6c80a1;
+}
+
+.subBarra{
+    font-weight: 700;
+    font-size: 14px;
+    background-color: rgb(41, 182, 41);
+}
+

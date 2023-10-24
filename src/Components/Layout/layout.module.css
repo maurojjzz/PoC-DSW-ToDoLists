@@ -1,9 +1,9 @@
 .testing{
     height: 100vh;
-    background-color: #2e3742de;
+    background-color: #101927;
 }
 .switchContainer::-webkit-scrollbar {
-    width: 4px;  
+    width: 6px;  
 }
   
 .switchContainer::-webkit-scrollbar-thumb {

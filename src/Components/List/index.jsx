@@ -18,12 +18,11 @@ const List = () => {
   const watchList=(id, list)=>{
     history.push(`/list/${id}`, {params: {...list}});
   }
-
   return (
-    <div className={`d-flex flex-row gap-5 border justify-content-center align-items-center border-success flex-wrap mt-3 mb-3 me-1 ${styles.listContainer}`}>
+    <div className={`d-flex flex-row gap-5 justify-content-center align-items-center flex-wrap me-1 my-4 ${styles.listContainer}`}>
       {lists.map((list, index) => (
         <div key={list.id} className={``} onClick={()=>watchList(list.id, list)}>
-          <Card  titule={list.title} id={index} list={list}/>
+          <Card  titule={list.title} id={index} list={list.items}/>
         </div>
       ))}
       

@@ -8,10 +8,10 @@ import ToDo from "../ToDo";
 
 function Layout() {
   return (
-    <div className={`container-fluid d-flex flex-column border border-danger ${styles.testing}`}>
+    <div className={`container-fluid d-flex flex-column ${styles.testing}`}>
       <Router>
         <Header />
-        <div className={`flex-grow-1 overflow-y-auto border border-warning mb-3 ${styles.switchContainer}`}>
+        <div className={`flex-grow-1 overflow-y-auto  ${styles.switchContainer}`}>
           <Switch>
             <Route path="/list" exact component={List} />
             <Route path="/new-list" exact component={NewList} />

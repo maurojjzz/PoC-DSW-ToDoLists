@@ -15,11 +15,11 @@ const Header = () => {
 }
 
   return (
-    <div className={`d-flex flex-row justify-content-around align-items-center border border-success ${styles.headerCont}`}>
-        <div className={``} onClick={mainPage}>
-            <h1>TO DO LISTS</h1>
+    <div className={`d-flex flex-row justify-content-around align-items-center p-3 text-light ${styles.headerCont}`}>
+        <div className={`${styles.cursor}`} onClick={mainPage}>
+            <h1>LISTS</h1>
         </div>
-        <div onClick={newList}>
+        <div className={`${styles.cursor}`} onClick={newList}>
             <h2>New list</h2>
         </div>
     </div>
