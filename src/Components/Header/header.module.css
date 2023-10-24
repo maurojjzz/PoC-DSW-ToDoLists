@@ -10,11 +10,12 @@
     font-size: 25px;
     cursor: pointer;
     border: 3px solid #5535e4;
+    color: #5535e4;
     transition: all ease 0.5s;
 }
 
 .btnList:hover{
-
+    color: white;
     background-color:  #5535e4;
     transition: all ease 0.5s;
     transform: scale(1.1);

@@ -1,0 +1,93 @@
+.containerForm{
+    min-width: 150px;
+    max-width: 500px;
+    width: 80vw;
+    min-height: 350px;
+    padding: 15px;
+    background-color: #1e2936;
+    box-shadow:  8px 8px 16px #0c131d,
+             -8px -8px 16px #141f31;
+}
+.inputTitle{
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    font-size: 22px;
+    margin-left: 15px;
+    border-bottom: 1px solid #101927;
+    outline: none;
+    transition: all ease 0.3s;
+}
+.inputTitle:focus{
+    border-bottom: 3px solid #101927;
+}
+
+.inputItems{
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #101927;
+    outline: none;
+    transition: all ease 0.3s;
+}
+.inputItems:focus{
+    border-bottom: 2px solid #101927;
+}
+.inputItems::placeholder{
+    color:#7f8fa8 ;
+}
+.itemsGroup{
+    max-width: 360px;
+    width: 80vw;
+    margin-bottom: 50px;
+}
+.editItemInput{
+    color: white;
+    font-weight: 600;
+    border: 0px;
+    font-size: 18px;
+    background-color: transparent;
+}
+.btnEditOk, .btnAddITem{
+    background-color: transparent;
+    color: #17964e;
+    transition: all ease 0.4s;
+    border: 2px solid #17964e;
+}
+.btnEditOk:hover, .btnAddITem:hover{
+    background-color: #17964e;
+    color: white;
+}
+.groupInputs{
+margin-bottom: 30px;
+}
+.listItem{
+    font-size: 20px;
+}
+.editDelete{
+    width: 25px;
+    opacity: 1;
+    filter: invert(1);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all ease-out 0.3s;
+}
+.editDelete:hover{
+    transform: scale(1.1);
+}
+
+.btnAddListFin{
+    border: 2px solid #5535e4;
+    font-size: 18px;
+    background-color: transparent;
+    color: #5535e4;
+    transition: all 0.3s ease-in;
+    font-weight: 600;
+}
+
+.btnAddListFin:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #5535e4;
+}

@@ -1,6 +1,8 @@
+
 .listContainer{
     padding-top: 25px;
     padding-bottom: 35px;
+    transition: all ease-out 0.5s;
 }
 .btnAddList{
     margin-top: 55px;
@@ -10,12 +12,14 @@
     max-width: 420px;
     width: 80vw;
     border: 4px solid #17964e;
+    color: #17964e;
     transition: all ease-out 0.5s;
     margin-left: 15px;
     cursor: pointer;
 }
 .btnAddList:hover{
     background-color: #17964e;
+    color: white;
     transform: scale(1.1);
 }
 .title{
