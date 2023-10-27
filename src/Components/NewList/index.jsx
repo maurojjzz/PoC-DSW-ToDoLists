@@ -63,7 +63,7 @@ const NewList = ({onAddList}) => {
 
   return (
     <div className={`d-flex flex-column align-items-center justify-content-center flex-grow-1 text-light`}>
-     <form className={`rounded-3 d-flex flex-column align-items-center justify-content-center ${styles.containerForm}`}>
+     <form className={`rounded-3 d-flex flex-column align-items-center justify-content-center  ${styles.containerForm}`}>
       <div className={`${styles.groupInputs}`}>
         <label className={`fs-2`} htmlFor="newListTitle">Titulo</label>
         <input 
@@ -73,7 +73,7 @@ const NewList = ({onAddList}) => {
           onChange={(e) => setnewListTitle(e.target.value)}
         />
       </div>
-      <div  className={`d-flex flex-column ${styles.itemsGroup}`}>
+      <div  className={`d-flex flex-column align-items-center w-100 ${styles.itemsGroup}`}>
         <h3>Tareas</h3>
         <ul className={`list-unstyled`}>
           {items.map((item) => (
